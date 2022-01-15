@@ -1,0 +1,31 @@
+{
+  "name": "Tests",
+  "rootNamespace": "",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Zenject",
+    "Zenject-TestFramework",
+    "Scripts",
+    "UniRx",
+    "nuget"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "NSubstitute.dll",
+    "Castle.Core.dll",
+    "System.Threading.Tasks.Extensions.dll",
+    "System.Data.SQLite.dll",
+    "Dapper.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
